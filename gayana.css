@@ -1,0 +1,111 @@
+body {
+    background-color: #FAFAFA;
+    height : 100vh;
+    margin : 0px;
+}
+
+* {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif !important
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container .left {
+    height: 700px;
+    width : 430px;
+    background-image: url(https://www.instagram.com/static/images/homepage/phones/home-phones.png/1dc085cdb87d.png);
+    background-repeat: no-repeat;
+}
+
+.container .left img {
+    position: relative;
+    top: 28px;
+    left: 155px;
+}
+
+.container .right .right-1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
+    justify-content: center;
+    width: 350px;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    font-family: -apple-system;
+    padding: 40px;
+    margin: 20px;
+}
+
+.container .right .right-1 img{
+    padding: 0px 70px 30px 70px;
+}
+
+.container .right .right-1 input{
+    all: unset;
+    padding: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    margin-top: 10px;
+}
+
+.container .right .right-1 .button {
+    background-color: rgba(0, 149, 246, 0.3);
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container .right .right-1 .login-fb {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(56, 81, 133);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.container .right .right-1 .forgotpw {
+    color: rgb(0, 55, 107);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer { 
+    height: 10%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar span {
+    color: gray;
+    padding: 10px;
+}
+
+.footer .copyright {
+    text-align: center;
+    color: gray;
+    padding: 10px;
+}
+
+@media screen and (max-width: 912px) {
+    .container .left {
+      display: none;
+    }
+  }
